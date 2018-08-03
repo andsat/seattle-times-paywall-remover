@@ -3,4 +3,4 @@ function removePayWall() {
 	document.getElementsByName('body').classList.remove('noAcct', 'fixed');
 }
 
-window.onload = removePayWall();
+window.onload = setTimeout(removePayWall(), 5000);

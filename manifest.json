@@ -2,14 +2,24 @@
 	"manifest_version": 2,
 	
 	"name": "Seattle Times Paywall Remover",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"description": "Use simple CSS and JavaScript to bypass the paywall blocking access to news articles on the Seattle Times website.",
 	
 	"icons": { "16": "icon16.png", "48": "icon48.png", "128": "icon128.png" },
+	
+	"permissions": [
+	"cookies",
+	"storage",
+	"*://*.seattletimes.com/*"
+	],
 	
 	"content_scripts": [{
 		"css": ["style.css"],
 		"js": ["content.js"],
 		"matches": ["*://*.seattletimes.com/*"]
-	}]
+	}],
+
+	"background": {
+		"scripts": ["background.js"]
+	}
 }
