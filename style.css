@@ -1,3 +1,7 @@
 #container {
 	filter: none !important;
 }
+
+.fixed {
+	position: relative !important;
+}
