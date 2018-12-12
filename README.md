@@ -1,11 +1,12 @@
 # seattle-times-paywall-remover
-Simple Chrome extension to remove/bypass the paywall on the Seattle Times website.
+Simple Chrome extension to remove/bypass the client-side paywall on the Seattle Times website.
 
-Don't want the source, and just want to use the extension? Download it from the Google Chrome Store:
-https://chrome.google.com/webstore/detail/seattle-times-paywall-rem/fijihjcolimbngiddbpafbhpffkoalkm
+Complaints from The Seattle Times lead Google to remove this extension from the Google Chrome Store,
+but nothing this extension does is illegal. The only way to use this extension is manually.
 
-If you don't want to download from the Chrome Store (or are using Chromium, etc), simply download
-this entire project, navigate to chrome://extensions, activate "developer mode," choose
-"load unpacked," navigate to the directory with these files, and select/load.
+Simply clone or download this entire project, navigate to chrome://extensions, activate
+"developer mode," choose "load unpacked," navigate to the directory with these files, and select/load.
 
 Enjoy the articles on the Seattle Times? Consider a subscription: https://www.seattletimes.com/subscribe
+
+How to enable Development Mode: https://developer.chrome.com/extensions/faq#faq-dev-01
